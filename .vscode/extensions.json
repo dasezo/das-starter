@@ -1,7 +1,8 @@
 {
   "recommendations": [
     "biomejs.biome", // Biome formatter/linter
-    "bradlc.vscode-tailwindcss" // If using Tailwind
+    "bradlc.vscode-tailwindcss", // If using Tailwind
+    "expo.vscode-expo-tools"
   ],
   "unwantedRecommendations": [
     "esbenp.prettier-vscode", // We use Biome, not Prettier

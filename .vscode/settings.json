@@ -2,9 +2,13 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "biomejs.biome",
   "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
     "source.fixAll.biome": "explicit",
-    "source.organizeImports.biome": "explicit"
+    "source.organizeImports.biome": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit"
   },
+
   // Disable conflicting formatters
   "prettier.enable": false,
 
