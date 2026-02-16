@@ -1,0 +1,14 @@
+{
+  "extends": "//",
+  "linter": {
+    "rules": {
+      "style": {
+        "useImportType": {
+          "options": {
+            "style": "inlineType"
+          }
+        }
+      }
+    }
+  }
+}

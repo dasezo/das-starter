@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "biomejs.biome", // Biome formatter/linter
+    "bradlc.vscode-tailwindcss" // If using Tailwind
+  ],
+  "unwantedRecommendations": [
+    "esbenp.prettier-vscode", // We use Biome, not Prettier
+    "dbaeumer.vscode-eslint" // Only if not using ESLint for boundaries
+  ]
+}
